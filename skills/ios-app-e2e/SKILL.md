@@ -51,8 +51,16 @@ description: 小規模なiOSアプリを企画からApp Store申請まで一貫�
 - アイコン、スクリーンショット、説明文、プライバシー情報を準備する。
 - ArchiveしてTestFlight配布する。
 - テスターのフィードバックを反映し、App Storeへ申請する。
+- App Store Connect入力は `references/app-store-connect-checklist.md` に従って抜け漏れなく実施する。
+- Archive/署名/ビルド番号運用は `references/archive-signing-versioning.md` に従う。
+- 申請前の最終判定は `references/release-gate.md` の必須項目をすべて満たしてから行う。
+- リジェクト時は `references/rejection-response.md` の手順で48時間以内に一次対応する。
 
 ## 参照
 
 - 日次チェックは `references/workflow-checklist.md` を参照する。
 - リリース判定は `references/release-readiness.md` を参照する。
+- App Store Connect入力は `references/app-store-connect-checklist.md` を参照する。
+- Archiveと署名運用は `references/archive-signing-versioning.md` を参照する。
+- リジェクト対応は `references/rejection-response.md` を参照する。
+- 最終ゲートは `references/release-gate.md` を参照する。
