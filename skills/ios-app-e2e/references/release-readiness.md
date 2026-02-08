@@ -1,14 +1,14 @@
-# Release Readiness
+# リリース判定基準
 
-## Required
+## 必須項目
 
-- No crash in primary flows.
-- Core MVP flows manually verified.
-- Privacy data usage declared.
-- App metadata complete in App Store Connect.
+- 主要フローでクラッシュしないこと。
+- MVPコアフローを手動で確認済みであること。
+- プライバシー情報の申告が完了していること。
+- App Store Connect上のメタデータ入力が完了していること。
 
-## Recommended
+## 推奨項目
 
-- Unit tests for non-trivial business logic.
-- Internal TestFlight feedback incorporated.
-- Known limitations documented.
+- 非自明なビジネスロジックにユニットテストがあること。
+- TestFlight内部テスターのフィードバックを反映していること。
+- 既知の制約をドキュメント化していること。

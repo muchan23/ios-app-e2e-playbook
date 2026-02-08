@@ -1,4 +1,4 @@
 interface:
-  display_name: "iOS App E2E"
-  short_description: "End-to-end iOS build and release workflows"
-  default_prompt: "Run the iOS app workflow from planning to App Store release."
+  display_name: "iOSアプリ E2E"
+  short_description: "iOSアプリの企画から申請までを一気通貫で実行"
+  default_prompt: "iOSアプリを企画からApp Store申請まで進める手順を実行してください。"

@@ -1,53 +1,53 @@
 ---
 name: ios-app-e2e
-description: End-to-end workflow for building and shipping a small iOS app from planning through App Store release. Use when Codex needs to run repeatable iOS delivery steps such as MVP definition, Xcode project setup, SwiftUI/MVVM implementation, testing, TestFlight distribution, and App Store submission.
+description: 小規模なiOSアプリを企画からApp Store申請まで一貫して進めるためのEnd-to-Endワークフロー。MVP定義、Xcode初期設定、SwiftUI/MVVM実装、テスト、TestFlight配布、App Store提出を再現可能に実行したいときに使う。
 ---
 
-# iOS App E2E
+# iOSアプリ E2E
 
-## Overview
+## 概要
 
-Execute a repeatable workflow to deliver a small iOS app from idea to App Store submission in 14 days.
+14日で小規模iOSアプリを企画からApp Store申請まで進めるための再現可能な実行手順を提供する。
 
-## Workflow
+## ワークフロー
 
-1. Define MVP scope in three features or fewer.
-2. Implement in short daily slices with a running build.
-3. Extract reusable steps after each day.
-4. Ship to TestFlight before App Store submission.
+1. MVP範囲を3機能以内で固定する。
+2. 毎日小さく実装し、常にビルド可能な状態を維持する。
+3. 日次作業の終了時に再利用可能な手順を抽出する。
+4. App Store申請前に必ずTestFlight配布を行う。
 
-## Step 1: Define Scope
+## Step 1: スコープ定義
 
-- Write one-sentence product goal.
-- Fix MVP to three user-facing capabilities.
-- Define success criteria with concrete dates.
+- プロダクト目標を1文で定義する。
+- MVPをユーザー向け3機能以内に固定する。
+- 成功条件を具体的な日付つきで定義する。
 
-## Step 2: Setup Project
+## Step 2: プロジェクト初期化
 
-- Create Xcode project with SwiftUI + MVVM.
-- Establish branch and PR workflow.
-- Add minimum app metadata and bundle configuration.
+- SwiftUI + MVVMでXcodeプロジェクトを作成する。
+- ブランチ戦略とPR運用を設定する。
+- 最低限のアプリメタデータとBundle設定を追加する。
 
-## Step 3: Implement Core Features
+## Step 3: コア機能実装
 
-- Build data model and persistence.
-- Build list and create/delete flows.
-- Build daily completion and streak calculation.
-- Keep features behind simple, testable ViewModels.
+- データモデルと永続化を実装する。
+- 一覧表示と作成/削除フローを実装する。
+- 当日達成チェックと連続日数計算を実装する。
+- 主要機能はテスト可能なViewModel経由で提供する。
 
-## Step 4: Stabilize Quality
+## Step 4: 品質安定化
 
-- Add unit tests for streak and persistence behavior.
-- Run manual checks on at least one simulator and one device when available.
-- Resolve crash and data-loss risks before polish work.
+- 連続日数計算と永続化挙動にユニットテストを追加する。
+- 少なくとも1つのシミュレータで手動確認し、可能なら実機でも確認する。
+- 見た目調整より先にクラッシュとデータ欠損リスクを解消する。
 
-## Step 5: Ship
+## Step 5: リリース
 
-- Prepare icon, screenshots, description, and privacy details.
-- Archive and distribute via TestFlight.
-- Resolve tester feedback and submit to App Store.
+- アイコン、スクリーンショット、説明文、プライバシー情報を準備する。
+- ArchiveしてTestFlight配布する。
+- テスターのフィードバックを反映し、App Storeへ申請する。
 
-## References
+## 参照
 
-- Use `references/workflow-checklist.md` for daily shipping checklist.
-- Use `references/release-readiness.md` for release gate criteria.
+- 日次チェックは `references/workflow-checklist.md` を参照する。
+- リリース判定は `references/release-readiness.md` を参照する。

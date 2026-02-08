@@ -1,17 +1,17 @@
-# Workflow Checklist
+# ワークフローチェックリスト
 
-## Day Start
+## 開始時
 
-- Confirm today's target in one sentence.
-- Confirm current blocker from previous day.
+- 今日の目標を1文で確認する。
+- 前日からのブロッカーを確認する。
 
-## During Build
+## 実装中
 
-- Keep app buildable at all times.
-- Commit logical units with clear messages.
+- 常にビルド可能な状態を維持する。
+- 論理単位で明確なコミットメッセージを付ける。
 
-## Day End
+## 終了時
 
-- Record decisions and blockers.
-- Extract reusable procedure into SKILL.md.
-- Define first task for next day.
+- その日の判断とブロッカーを記録する。
+- 再利用可能な手順をSKILL.mdへ抽出する。
+- 翌日の最初のタスクを1つ定義する。
