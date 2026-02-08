@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOS App E2E"
+  short_description: "End-to-end iOS build and release workflows"
+  default_prompt: "Run the iOS app workflow from planning to App Store release."
